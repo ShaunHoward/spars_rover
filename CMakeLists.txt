@@ -28,4 +28,4 @@ include_directories(
 
 add_library(sparsrover_lib src/spars_rover.cpp)
 
-target_link_libraries(spars_rover_lib ${catkin_LIBRARIES} ${OMPL_LIBRARIES})
+target_link_libraries(sparsrover_lib ${catkin_LIBRARIES} ${OMPL_LIBRARIES})

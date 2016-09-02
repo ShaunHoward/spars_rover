@@ -53,7 +53,7 @@ void SPARSRover::amclPoseCallback(geometry_msgs::PoseWithCovarianceStamped new_p
 
 void SPARSRover::initializeSubscribers() {
     map_sub = nh.subscribe("map", 1, &SPARSRover::mapCallback, this);
-    amcl_pose_sub = nh.subscribe("amcl_pose", 1, &SparsRover::amclPoseCallback, this);
+    amcl_pose_sub = nh.subscribe("amcl_pose", 1, &SPARSRover::amclPoseCallback, this);
 }
 
 bool SPARSRover::stateIsValid(const ompl::base::State *state) {
