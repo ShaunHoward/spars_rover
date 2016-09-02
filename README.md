@@ -21,3 +21,6 @@ SPARS 2 planner-based rover UI Ifor the Sentry Robot built via @cwru_robotics fo
 - cd ~/projects/ros_ws
 - catkin_make
 - roslaunch turtleb start_sim_plan.launch
+
+# create new layer for costmap
+- http://wiki.ros.org/costmap_2d/Tutorials/Creating%20a%20New%20Layer
