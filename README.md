@@ -12,12 +12,12 @@ SPARS 2 planner-based rover UI Ifor the Sentry Robot built via @cwru_robotics fo
 - rosdep install --from-paths . --ignore-src --rosdistro=indigo
 
 # create map
-- roslaunch turtlebot_rrt start_sim_map.launch
-- roslaunch turtlebot_teleop keyboard_teleop.launch
+- roslaunch spars_rover start_sim_map.launch
+- roslaunch spars_rover keyboard_teleop.launch
 - create the map by driving around with keyboard commands
 - once map is ready to save: rosrun map_server map_saver -f /path/to/map_file
 
 # run robot simulator and planner with map
 - cd ~/projects/ros_ws
 - catkin_make
-- roslaunch turtleb start_sim_plan.launch
+- roslaunch spars_rover start_sim_plan.launch
