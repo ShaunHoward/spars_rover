@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>spars_rover</name>
+  <version>1.0.0</version>
+  <description>The spars_rover planning package</description>
+  <maintainer email="smh150@case.edu">shaun_howard</maintainer>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <depend>roscpp</depend>
+  <depend>rospy</depend>
+  <depend>occupancy_grid_utils</depend>
+  <depend>costmap_2d</depend>
+  <depend>nav_core</depend>
+  <depend>base_local_planner</depend>
+
+
+  <!-- The export tag contains other, unspecified, tags -->
+  <export>
+    <!-- Other tools can request additional information be placed here -->
+    <nav_core plugin="${prefix}/spars_rover_plugin.xml"/>
+  </export>
+</package>
