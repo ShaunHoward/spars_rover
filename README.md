@@ -1,5 +1,5 @@
 # spars_rover
-SPARS 2 planner-based rover UI Ifor the Century Robot built via @cwru_robotics for the U.S. Airforce 
+SPARS 2 planner-based rover UI Ifor the Sentry Robot built via @cwru_robotics for the U.S. Airforce 
 
 # installation
 - cd ~/projects/ros_ws/src
