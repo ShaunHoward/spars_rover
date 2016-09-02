@@ -1,0 +1,11 @@
+obstacle_range: 5.0
+raytrace_range: 6.0
+
+#robot is a 0.762 m wide (.368 body + 2*.197 treads), 1.22 m long (1.068 body + .152 lidar box), and 1.346 m tall (including gps unit on top)
+footprint: [[-0.61, -0.381], [0.61, -0.381], [0.61, 0.381], [-0.61, 0.381]]
+#robot_radius: ir_of_robot
+inflation_radius: 3.0
+
+observation_sources: laser_scan_sensor
+
+laser_scan_sensor: {sensor_frame: lidar_link, data_type: LaserScan, topic: /sensor_msgs/LaserScan, marking: true, clearing: true}
